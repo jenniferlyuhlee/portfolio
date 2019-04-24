@@ -8,5 +8,40 @@
 #nav{
   display: block;
   width: 100%;
-  background: gradient(#000
+  top: 0px;
+  position: absolute;
+}
+
+#nav li{
+  display: inline-block;
+}
+
+#content h1{
+  font-size: 50px;
+}
+
+#banner{
+  height: 100%;
+  padding-top: 215px;
+  padding-bottom: 215px;
+  text-align: center;
+}
+
+#nav a{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  border-radius: 0px 0px 25px 25px;
+}
+
+#about p{
+  font-size: 30px;
+}
+
+#contact span{
+  font-size: 30px;
 }
