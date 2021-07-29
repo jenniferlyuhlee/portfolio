@@ -66,15 +66,18 @@ img{
 
 .socials{
   display:flex;
+  border: 3px solid black;
+  padding:75px;
 }
-.fb{
-  width:33%;
+.fb img{
+  width:50px;
 }
-.insta{
-  width:33%;
+.insta img{
+  width:50px;
+  right
 }
-.em{
-  width:33%;
+.em img{
+  width:50px;
 }
 
 
