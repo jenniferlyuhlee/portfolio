@@ -66,14 +66,21 @@ img{
 /*global styling*/
 body{
   text-align:center;
+  font-family: Helvetica, sans-serif;
 }
 
+.jennifer{
+  padding:25px;
+  font-size:25px;
+  font-style:italic;
+  font-style:bold;
+}
 .jennifer a:link{
-  color: rbga(171, 250, 92, 1);
+  color: rgb(171, 250, 92);
   text-decoration: line-through;
 }
 .jennifer a:visited{
-  color: rbga(171, 250, 92, 1);
+  color: rgb(171, 250, 92);
   text-decoration: line-through;
 }
 
