@@ -127,10 +127,6 @@ h5{
 /*album*/
 .gallery{
    line-height:0;
-   -webkit-column-count:4; /* split it into 5 columns */
-   -webkit-column-gap:10px; /* give it a 5px gap between columns */
-   -moz-column-count:4;
-   -moz-column-gap:10px;
    column-count:4;
    column-gap:10px;
 }
@@ -163,6 +159,32 @@ h5{
     -webkit-column-count: 3;
     column-count:         3;
    }
+}
+
+.et1{
+  line-height:0;
+   column-count:3;
+   column-gap:10px;
+}
+.et1 img{
+  width:100%;
+  margin-bottom:10px;
+}
+
+.et2{
+  display:flex;
+  width:100%;
+  line-height:0;
+  column-count:2;
+  column-gap:10px;
+  margin-top:-5px;
+  border: 2px solid red;
+  
+}
+.et2 img{
+  width:100%;
+  border: 2px solid green;
+
 }
 
 /*edits*/
