@@ -169,6 +169,10 @@ h5{
   width:60vw;
   margin-bottom:40px;
 }
+.orient1{
+  display:flex;
+  content-align:center;
+}
 
 
 /*profile*/
