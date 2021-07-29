@@ -64,20 +64,28 @@ img{
 }
 
 
-.socials{
+body{
+  text-align:center;
+}
+
+
+.contact{
   display:flex;
-  border: 3px solid black;
+  justify-content: center;
   padding:75px;
 }
-.fb img{
-  width:50px;
+.facebook img{
+  width:40px;
+  margin:0px 30px;
 }
-.insta img{
-  width:50px;
-  right
+.instagram img{
+  width:40px;
+  margin-right:8px;
+  margin:0px 30px;
 }
-.em img{
-  width:50px;
+.email img{
+  width:40px;
+  margin:0px 30px;
 }
 
 
@@ -121,3 +129,4 @@ img{
     column-count:         3;
    }
 }
+
