@@ -3,7 +3,7 @@ var t;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(255);
-  stroke(255, 0, 0, 15);
+  stroke(171, 250, 92, 15); //#abfa5c
   noFill();
   t = 0;
 }
