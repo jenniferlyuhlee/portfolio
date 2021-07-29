@@ -199,8 +199,14 @@ h5{
   margin:5px;
 }
   
-  
 
+/*code*/
+.web{
+  margin-bottom:60px;
+}
+.web img{
+  width: 65%;
+}
 
 /*profile*/
 .profilepic img{
