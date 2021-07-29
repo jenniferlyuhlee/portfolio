@@ -69,12 +69,13 @@ body{
   font-family: Helvetica, sans-serif;
 }
 p{
-  font-size:14px;
+  font-size:15px;
   color:gray;
-  margin:0px 40px;
+  margin:0px 40px 20px 40px;
+  line-height:150%;
 }
 h5{
-  font-size:18px;
+  font-size:20px;
   font-style:italic;
   margin-bottom:15px;
 }
@@ -169,17 +170,36 @@ h5{
   width:60vw;
   margin-bottom:40px;
 }
-.orient1{
+.orient{
   display:flex;
+  justify-content:center;
+}
+.o img{
+  width: 16vw;
+  margin:5px;
+}
+.r img{
+  width: 38vw;
+  margin:5px;
+}
+.i img{
+  width:36vw;
+  margin:5px;
+}
+.e img{
+  width: 21.25vw;
+  margin:5px;
+}
+.n img{
+  width: 21.25vw;
+  margin:5px;
+}
+.t img{
+  width:47.75vw;
+  margin:5px;
+}
   
-}
-.orient1 img{
-  width:20%;
-}
-.orient2{
-  display:flex;
-  content-align:center;
-}
+  
 
 
 /*profile*/
