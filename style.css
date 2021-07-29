@@ -64,58 +64,35 @@ img{
 }
 
 
-/*
-.gallery{
-  column-count:4;
-  column-gap:10px;
+.socials{
+  display:flex;
 }
-.gallery img{
-  width:100% !important;
-  height: auto;
-  display:block;
-  margin-bottom:10px;
+.fb{
+  width:33%;
 }
-
-@media screen and (max-width:1024px){
-  .gallery{
-    column-count:3;
-  }
+.insta{
+  width:33%;
+}
+.em{
+  width:33%;
 }
 
-@media screen and (max-width:640px){
-  .gallery{
-    column-count:2;
-  }
-}
 
-@media screen and (max-width:375px){
-  .gallery{
-    column-count:1;
-  }
-}
-*/
-
+/*album*/
 .gallery{
    line-height:0;
-   -webkit-column-count:5; /* split it into 5 columns */
-   -webkit-column-gap:5px; /* give it a 5px gap between columns */
-   -moz-row-count:5;
-   -moz-row-gap:5px;
-   row-count:5;
-   row-gap:5px;
+   -webkit-column-count:4; /* split it into 5 columns */
+   -webkit-column-gap:10px; /* give it a 5px gap between columns */
+   -moz-column-count:4;
+   -moz-column-gap:10px;
+   column-count:4;
+   column-gap:10px;
 }
 
 .gallery img {
    width: 100% !important;
    height: auto !important;
-   margin-bottom:5px; /* to match column gap */
-}
-@media (max-width: 1200px) {
-   .gallery {
-    -moz-column-count:    4;
-    -webkit-column-count: 4;
-    column-count:         4;
-   }
+   margin-bottom:10px; /* to match column gap */
 }
 
 @media (max-width: 1000px) {
@@ -128,16 +105,16 @@ img{
 
 @media (max-width: 800px) {
    .gallery {
-    -moz-column-count:    2;
-    -webkit-column-count: 2;
-    column-count:         2;
+    -moz-column-count:    4;
+    -webkit-column-count: 4;
+    column-count:         4;
    }
 }
 
 @media (max-width: 400px) {
    .gallery {
-    -moz-column-count:    1;
-    -webkit-column-count: 1;
-    column-count:         1;
+    -moz-column-count:    3;
+    -webkit-column-count: 3;
+    column-count:         3;
    }
 }
