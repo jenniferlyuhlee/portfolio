@@ -68,12 +68,17 @@ body{
   text-align:center;
   font-family: Helvetica, sans-serif;
 }
+p{
+  color:gray;
+}
+h5{
+  font-size:18px;
+}
 
 .jennifer{
   padding:25px;
   font-size:25px;
   font-style:italic;
-  font-style:bold;
 }
 .jennifer a:link{
   color: rgb(171, 250, 92);
@@ -155,3 +160,13 @@ body{
    }
 }
 
+
+/*profile*/
+.profilepic{
+  border: 3px solid black;
+  width:100%;
+}
+
+.profilepic img{
+  width:100%;
+}
