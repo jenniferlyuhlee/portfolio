@@ -63,10 +63,28 @@ img{
   font-size: 30px;
 }
 
-
+/*global styling*/
 body{
   text-align:center;
 }
+
+.jennifer a:link{
+  color: rbga(171, 250, 92, 1);
+  text-decoration: line-through;
+}
+.jennifer a:visited{
+  color: rbga(171, 250, 92, 1);
+  text-decoration: line-through;
+}
+
+.menu a:link{
+  color: black;
+  text-decoration:none;
+}
+.menu a:visited{
+  color:black;
+}
+
 
 
 .contact{
