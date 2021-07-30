@@ -197,6 +197,27 @@ h3{
   justify-content: center;
 }
 
+.p1{
+  display:flex;
+  justify-content:center;
+}
+.im1 {
+  width:100%;
+}
+.im1 img{
+  width:100%;
+  margin: 0px 5px 0px 10px;
+}
+.im2 {
+  width:100%;
+}
+.im2 img{
+  width:100%;
+  
+}
+
+
+
 
 /*edits*/
 .virus img{
