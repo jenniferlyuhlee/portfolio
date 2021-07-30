@@ -78,10 +78,11 @@ h5{
   font-size:20px;
   font-style:italic;
   margin-bottom:15px;
+  margin-top:40px;
 }
 h3{
   font-size: 18px;
-  color: rgb(40, 40, 40);
+  color: rgb(80, 80, 80);
 }
 
 .jennifer{
@@ -179,17 +180,9 @@ h3{
   width:100%;
   margin-bottom:10px;
 }
-
-.et2{
-  line-height:0;
-  column-count:2;
-  column-gap:10px;
-  margin-top:-5px;
-  
-}
 .et img{
   width:48vw;
-  margin-bottom:0px 5px;
+  margin: 0px 5px;
 }
 
 .seasons img{
@@ -221,8 +214,16 @@ h3{
   margin:5px;
 }
 .im5 img{
-  width: 20.5vw;
+  width: 20.25vw;
   margin:5px;
+}
+.im6 img{
+  width:26.75vw;
+  margin:0px 5px;
+}
+.im7 img{
+  width:11.75vw;
+  margin:0px 5px;
 }
 
 
