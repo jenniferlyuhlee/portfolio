@@ -79,6 +79,10 @@ h5{
   font-style:italic;
   margin-bottom:15px;
 }
+h3{
+  font-size: 18px;
+  color: rgb(40, 40, 40);
+}
 
 .jennifer{
   padding:20px;
@@ -110,16 +114,16 @@ h5{
   padding:75px;
 }
 .facebook img{
-  width:40px;
+  width:45px;
   margin:0px 30px;
 }
 .instagram img{
-  width:40px;
+  width:45px;
   margin-right:8px;
   margin:0px 30px;
 }
 .email img{
-  width:40px;
+  width:45px;
   margin:0px 30px;
 }
 
