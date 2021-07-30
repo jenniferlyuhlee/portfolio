@@ -187,20 +187,20 @@ h3{
   margin-top:-5px;
   
 }
-.et2 img{
-  width:100%;
-  margin-bottom:10px;
+.et img{
+  width:48vw;
+  margin-bottom:0px 5px;
 }
 
 .seasons img{
   width:75%;
   justify-content: center;
+  margin-top:5px;
 }
 
 .p1{
   display:flex;
   justify-content:center;
-  border: 3px solid red;
 }
 
 .im1 img{
@@ -208,7 +208,7 @@ h3{
   margin:0px 5px;
 }
 .im3 img{
-  width:39vw;
+  width:38.5vw;
   margin:5px;
 }
 .im4 img{
@@ -216,37 +216,14 @@ h3{
   margin:5px;
 }
 
-
-/*
-.im1 {
-  width:100%;
-  margin:0px 5px 5px 0px;
-}
-.im1 img{
-  width:100%;
-}
-.im2 {
-  width:100%;
-  margin:0px 0px 5px 5px;
-}
 .im2 img{
-  width:100%;
-}
-
-.im3 img{
-  width:39.25vw;
-  margin:0px 5px;
-}
-.im4 img{
-  width:17.5vw;
-  margin:0px 5px
+  width:24vw;
+  margin:5px;
 }
 .im5 img{
-  width:39.25vw;
-  margin:0px 5px;
+  width: 20.5vw;
+  margin:5px;
 }
-
-*/
 
 
 
