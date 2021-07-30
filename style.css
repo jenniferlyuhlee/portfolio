@@ -200,36 +200,53 @@ h3{
 .p1{
   display:flex;
   justify-content:center;
+  border: 3px solid red;
 }
+
+.im1 img{
+  width: 48vw;
+  margin:0px 5px;
+}
+.im3 img{
+  width:39vw;
+  margin:5px;
+}
+.im4 img{
+  width:17vw;
+  margin:5px;
+}
+
+
+/*
 .im1 {
   width:100%;
-  margin:0px 5px 10px 0px;
+  margin:0px 5px 5px 0px;
 }
 .im1 img{
   width:100%;
 }
 .im2 {
   width:100%;
-  margin:0px 0px 10px 5px;
+  margin:0px 0px 5px 5px;
 }
 .im2 img{
   width:100%;
 }
 
 .im3 img{
-  width:100%;
-  margin:5px;
+  width:39.25vw;
+  margin:0px 5px;
 }
 .im4 img{
-  width:40%;
-  margin:5px
+  width:17.5vw;
+  margin:0px 5px
 }
 .im5 img{
-  width:60%;
-  margin:5px;
+  width:39.25vw;
+  margin:0px 5px;
 }
 
-
+*/
 
 
 
