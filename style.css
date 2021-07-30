@@ -192,6 +192,11 @@ h3{
   margin-bottom:10px;
 }
 
+.seasons img{
+  width:75%;
+  justify-content: center;
+}
+
 
 /*edits*/
 .virus img{
