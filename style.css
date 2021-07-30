@@ -203,18 +203,32 @@ h3{
 }
 .im1 {
   width:100%;
+  margin:0px 5px 10px 0px;
 }
 .im1 img{
   width:100%;
-  margin: 0px 5px 0px 10px;
 }
 .im2 {
   width:100%;
+  margin:0px 0px 10px 5px;
 }
 .im2 img{
   width:100%;
-  
 }
+
+.im3 img{
+  width:100%;
+  margin:5px;
+}
+.im4 img{
+  width:40%;
+  margin:5px
+}
+.im5 img{
+  width:60%;
+  margin:5px;
+}
+
 
 
 
