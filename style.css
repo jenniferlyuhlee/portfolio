@@ -161,6 +161,11 @@ nav {
   width:100%;
   margin:0px;
 }
+.imagetitle{
+  position:absolute;
+  top:0;
+  left:0;
+}
 
 
 /*album*/
