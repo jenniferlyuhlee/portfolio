@@ -286,17 +286,8 @@ video{
 .web img{
   width: 65%;
 }
-.sketch img{
-  width:100%;
-}
-.sketch{
-  display: flex;
-  justify-content: center;
-  width:100%;
-}
-.nolink img{
-  width:50%;
-}
+
+
 
 /*profile*/
 .profilepic img{
