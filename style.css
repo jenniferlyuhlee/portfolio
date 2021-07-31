@@ -284,8 +284,7 @@ nav {
   line-height:0;
   column-count:3;
   column-gap:10px;
-  margin-bottom:-60px;
-  border: 3px solid green;
+  margin-bottom:-8vw;
 }
 .et1 img{
   width:100%;
@@ -311,7 +310,6 @@ nav {
   display:flex;
   justify-content:center;
   margin-top:0px;
-  border: 3px solid red;
 }
 
 .im1 img{
