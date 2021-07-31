@@ -150,6 +150,20 @@ nav {
   z-index: 80;
 }
 
+
+.omenu {
+  position: fixed;
+  height: 100vh;
+  width: 500px;
+  background-color:white;
+  color:black;
+  left: calc( 100% - 500px);
+  text-align: center;
+  transform: translateX(500px);
+  transition: all 0.2s ease-in;
+  z-index: 80;
+}
+
 .menu.open {
   transform: translateX(0);
 }
@@ -164,8 +178,6 @@ nav {
 .menu li {
   padding: 20px 0;
 }
-
-
 .gcover {
   background: black;
   opacity: 0.2;
