@@ -9,17 +9,17 @@ body{
 p{
   font-size:2vw;
   color:gray;
-  margin:0px 40px 20px 40px;
+  margin:2vw 4vw;
   line-height:150%;
 }
 h5{
   font-size:3.5vw;
   font-style:italic;
-  margin-bottom:15px;
-  margin-top:30px;
+  margin-bottom:1.5vw;
+  margin-top:4.5vw;
 }
 h3{
-  font-size: 18px;
+  font-size:3vw;
   color: rgb(80, 80, 80);
 }
 
@@ -89,8 +89,8 @@ nav {
 .menu ul {
   list-style-type: none;
   position: absolute;
-  top: 40%;
-  left: 48%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 .menu li {
@@ -245,7 +245,7 @@ video{
 /*edits*/
 .virus img{
   width:60vw;
-  margin-bottom:40px;
+  margin-bottom:2vw;
 }
 .orient{
   display:flex;
@@ -276,10 +276,12 @@ video{
   margin:5px;
 }
   
-
+.newtitle{
+  margin-top:0px;
+}
 /*code*/
 .web{
-  margin-bottom:60px;
+  margin-bottom:4vw;
 }
 .web img{
   width: 65%;
