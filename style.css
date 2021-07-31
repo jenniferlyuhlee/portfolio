@@ -7,16 +7,16 @@ body{
   font-family: Helvetica, sans-serif;
 }
 p{
-  font-size:15px;
+  font-size:2vw;
   color:gray;
   margin:0px 40px 20px 40px;
   line-height:150%;
 }
 h5{
-  font-size:30px;
+  font-size:3.5vw;
   font-style:italic;
   margin-bottom:15px;
-  margin-top:0px;
+  margin-top:30px;
 }
 h3{
   font-size: 18px;
@@ -59,11 +59,9 @@ nav {
 .menu-button {
     display: block;
     position: fixed;
-    top: 4vw;
-    right: 4vw;
+    top: 5vw;
+    right: 6vw;
     z-index: 100;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
     cursor: pointer;
 }
 
@@ -91,12 +89,12 @@ nav {
 .menu ul {
   list-style-type: none;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 48%;
   transform: translate(-50%, -50%);
 }
 .menu li {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .gcover {
   background: black;
