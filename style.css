@@ -59,8 +59,8 @@ nav {
 .menu-button {
     display: block;
     position: fixed;
-    top: 5vw;
-    right: 6vw;
+    top: 6vw;
+    right: 7vw;
     z-index: 100;
     cursor: pointer;
 }
@@ -89,8 +89,8 @@ nav {
 .menu ul {
   list-style-type: none;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 45%;
   transform: translate(-50%, -50%);
 }
 .menu li {
@@ -134,8 +134,8 @@ nav {
   height:auto;
   margin:0px;
 }
-.work a:hover{
-  background-image: rgba(171, 250, 92, 20);
+.work img:hover{
+  background-color: rgba(171, 250, 92, 20);
 }
 
 /*album*/
@@ -285,6 +285,9 @@ video{
 }
 .web img{
   width: 65%;
+}
+.sketch {
+  width:;
 }
 
 /*profile*/
