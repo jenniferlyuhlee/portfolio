@@ -43,6 +43,7 @@ h3{
 .jennifer a:link{
   color: rgb(171, 250, 92);
   text-decoration: line-through;
+  text-decoration-thickness: 15%;
 }
 .jennifer a:visited{
   color: rgb(171, 250, 92);
@@ -123,16 +124,16 @@ nav {
   padding:75px;
 }
 .facebook img{
-  width:45px;
+  width:40px;
   margin:0px 30px;
 }
 .instagram img{
-  width:45px;
+  width:40px;
   margin-right:8px;
   margin:0px 30px;
 }
 .email img{
-  width:45px;
+  width:40px;
   margin:0px 30px;
 }
 
@@ -145,9 +146,6 @@ nav {
 .work img{
   width:100%;
   margin:0px;
-}
-.work a, img:hover{
-  background-color: rgb(171, 250, 92);
 }
 
 
