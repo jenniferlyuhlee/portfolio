@@ -293,8 +293,6 @@ nav {
 .et img{
   width:48vw;
   margin: 0px 5px;
-  
-
 }
 .et{
   margin-top:0px;
@@ -303,7 +301,7 @@ nav {
 .seasons img{
   width:75%;
   justify-content: center;
-  margin-top:5px;
+  margin-top:10px;
 }
 
 .p1{
