@@ -34,11 +34,25 @@ h3{
   color: rgb(80, 80, 80);
 }
 
+.portal{
+  font-family:cocogoose_proitalic;
+  align-text:center;
+  font-size:10vw;
+  margin:0px;
+}
+.portal a:link{
+  color: rgb(171, 250, 92);
+  text-decoration: line-through;
+  text-decoration-thickness: 15%;
+}
+.portal a:visited{
+  color: rgb(171, 250, 92);
+  text-decoration: line-through;
+}
 .jennifer{
   font-family:cocogoose_proitalic;
   padding:20px;
   font-size:3vw;
-  font-style:italic;
 }
 .jennifer a:link{
   color: rgb(171, 250, 92);
