@@ -25,6 +25,7 @@ h3{
 
 .jennifer{
   padding:20px;
+  margin-bottom:-40px;
   font-size:25px;
   font-style:italic;
 }
@@ -226,6 +227,11 @@ nav {
   margin:0px 5px;
 }
 
+/*vlogs*/
+video{
+  width:50vw;
+  margin-bottom: 15px;
+}
 
 
 /*edits*/
