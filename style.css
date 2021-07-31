@@ -144,12 +144,12 @@ nav {
 }
 .work img{
   width:100%;
-  height:auto;
   margin:0px;
 }
-.work img:hover{
-  background-color: rgba(171, 250, 92, 20);
+.work a, img:hover{
+  background-color: rgb(171, 250, 92);
 }
+
 
 /*album*/
 .gallery{
