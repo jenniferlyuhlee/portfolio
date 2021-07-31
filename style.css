@@ -298,7 +298,17 @@ video{
   width: 65%;
 }
 
+/*code*/
+.sketch{
+  display:flex;
+  justify-content:center;
+  margin:0px 10px 10px 10px;
+}
 
+.solo{
+  justify-content:center;
+  margin-bottom:10px;
+}
 
 /*profile*/
 .profilepic img{
