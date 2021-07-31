@@ -13,7 +13,7 @@ p{
   line-height:150%;
 }
 h5{
-  font-size:20px;
+  font-size:30px;
   font-style:italic;
   margin-bottom:15px;
   margin-top:0px;
@@ -25,7 +25,7 @@ h3{
 
 .jennifer{
   padding:20px;
-  font-size:25px;
+  font-size:3vw;
   font-style:italic;
 }
 .jennifer a:link{
@@ -40,6 +40,7 @@ h3{
 .menu a:link{
   color: black;
   text-decoration:none;
+  font-size:2vw;
 }
 .menu a:visited{
   color:black;
@@ -58,12 +59,8 @@ nav {
 .menu-button {
     display: block;
     position: fixed;
-    top: 30px;
-    right: 30px;
-    width: 60px;
-    height: 60px;
-    border: solid 2px black;
-    border-radius: 50%;
+    top: 4vw;
+    right: 4vw;
     z-index: 100;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
@@ -71,22 +68,18 @@ nav {
 }
 
 .menu-button img{
-  width: 50px;
-}
-
-.menu-button.open {
-  border: solid 2px black;
+  width:7vw;
 }
 
 .menu {
   position: fixed;
   height: 100vh;
-  width: 500px;
+  width: 50vw;
   background-color:white;
   color:black;
-  left: calc( 100% - 500px);
+  left: calc( 100% - 50vw);
   text-align: center;
-  transform: translateX(500px);
+  transform: translateX(50vw);
   transition: all 0.2s ease-in;
   z-index: 80;
 }
