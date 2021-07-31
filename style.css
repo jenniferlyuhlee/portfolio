@@ -201,6 +201,26 @@ nav {
   opacity:1;
 }
 
+.overlay{
+  position: relative;
+}
+.overlaytitle{
+  position:absolute;
+  top:50%;
+  left:0;
+  width:100%;
+  height:100%;
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  opacity:0;
+  transition: opacity 0.25s;
+}
+.overlaytitle:hover{
+  opacity:1;
+}
+
 /*album*/
 .gallery{
    line-height:0;
