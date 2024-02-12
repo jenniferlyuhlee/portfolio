@@ -106,7 +106,7 @@ nav {
   left: calc( 100% - 50vw);
   text-align: center;
   transform: translateX(50vw);
-  transition: all 0.2s ease-in;
+  transition: all 0.4s ease-in;
   z-index: 80;
 }
 
@@ -118,14 +118,15 @@ nav {
   list-style-type: none;
   position: absolute;
   top: 45%;
-  left: 45%;
+  left: 43%;
   transform: translate(-50%, -50%);
 }
 .menu li {
-  padding: 3px 0;
+  padding:1px;
 }
 .gcover {
   background: black;
+  color: white;
   opacity: 0.3;
 }
 
