@@ -117,12 +117,12 @@ nav {
 .menu ul {
   list-style-type: none;
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 45%;
   transform: translate(-50%, -50%);
 }
 .menu li {
-  padding: 10px 0;
+  padding: 3px 0;
 }
 .gcover {
   background: black;
