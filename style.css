@@ -392,14 +392,14 @@ video{
   margin-bottom:4vw;
 }
 
-.pyggapp{
-  width:
+#pyggapp{
+  width: 40vw;
 }
 
 
 /*code*/
 .web{
-  margin-bottom:4vw;
+  margin-bottom:5vw;
 }
 .web img{
   width: 65%;
