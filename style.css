@@ -396,6 +396,11 @@ video{
   width: 40vw;
 }
 
+.prototype iframe{
+  width: 80vw;
+  margin-bottom:4vw;
+}
+
 
 /*code*/
 .web{
@@ -405,7 +410,6 @@ video{
   width: 65%;
 }
 
-/*code*/
 .sketch{
   display:flex;
   justify-content:center;
