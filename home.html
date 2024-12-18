@@ -42,6 +42,15 @@
           <div class="menu-bg"></div>
     
     </nav> -->
+    <div id="menu-container"></div> 
+
+    <script>
+    fetch('menu.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('menu-container').innerHTML = data; 
+      });
+    </script>
 
     <div class="page">
       
