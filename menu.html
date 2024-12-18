@@ -1,3 +1,14 @@
+<head>
+  <script>
+    $(document).ready(function() {
+      $('.menu-button').click(function() {
+      $(this).toggleClass('open');
+      $('.menu').toggleClass('open');
+        $('.page').toggleClass('gcover');
+      });
+    });
+  </script>
+</head>
 
 <nav>
   
@@ -20,12 +31,3 @@
     
 </nav>
 
-<script>
-  $(document).ready(function() {
-    $('.menu-button').click(function() {
-    $(this).toggleClass('open');
-    $('.menu').toggleClass('open');
-      $('.page').toggleClass('gcover');
-    });
-  });
-</script>
