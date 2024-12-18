@@ -138,19 +138,12 @@ nav {
   justify-content: center;
   padding:75px;
 }
-.facebook img{
-  width:40px;
-  margin:0px 30px;
+
+.linkedin svg, .github svg, .email svg{
+  transform: scale(2.5);
+  margin:0px 40px;
 }
-.instagram img{
-  width:40px;
-  margin-right:8px;
-  margin:0px 30px;
-}
-.email img{
-  width:40px;
-  margin:0px 30px;
-}
+
 
 /*index*/
 .port{
