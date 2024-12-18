@@ -59,17 +59,7 @@
     <div class="work">
       <div class="image">
         <img src="https://cdn.glitch.com/4c26324d-3d16-41b4-814f-f72ea184fcdc%2Fprofile.jpeg?v=1627702326812">
-        <a href="profile.html"><div class="imagetitle">PROFILE</div></a>
-      </div>
-      
-      <div class="image">
-        <img src="https://cdn.glitch.com/4c26324d-3d16-41b4-814f-f72ea184fcdc%2Fedits.jpeg?v=1627702324771">
-        <a href="edits.html"><div class="imagetitle">EDITS</div>  </a>
-      </div>
-      
-      <div class="image">
-        <img src="https://cdn.glitch.com/4c26324d-3d16-41b4-814f-f72ea184fcdc%2Fcode.png?v=1627702326932">
-         <a href="code.html"><div class="imagetitle">CODE</div>  </a>
+        <a href="profile.html"><div class="imagetitle">ABOUT</div></a>
       </div>
       
       <div class="image">
@@ -81,6 +71,20 @@
         <img src="https://cdn.glitch.com/4c26324d-3d16-41b4-814f-f72ea184fcdc%2Fimg27.jpg?v=1627524572551">
         <a href="album.html"><div class="imagetitle">ALBUM</div> </a>
       </div>
+      
+      <div class="image">
+        <img src="https://cdn.glitch.com/4c26324d-3d16-41b4-814f-f72ea184fcdc%2Fcode.png?v=1627702326932">
+         <a href="code.html"><div class="imagetitle">CODE</div>  </a>
+      </div>
+      
+
+      
+      <div class="image">
+        <img src="https://cdn.glitch.com/4c26324d-3d16-41b4-814f-f72ea184fcdc%2Fedits.jpeg?v=1627702324771">
+        <a href="edits.html"><div class="imagetitle">EDITS</div>  </a>
+      </div>
+      
+
 
       
       <div class="image">
@@ -95,7 +99,7 @@
 
     </div>
   
-   <footer class="footer">     
+<!--    <footer class="footer">     
     
     <div class="contact">
       <div class="facebook">
@@ -107,12 +111,21 @@
           </a>
       </div>
       <div class="email">
-          <a href="mailto:jennniferlee99@gmail.com">
+          <a href="mailto:jenniferlyuhlee@gmail.com">
             <img src="https://cdn.glitch.com/4c26324d-3d16-41b4-814f-f72ea184fcdc%2Femail.png?v=1627696883924" alt=""/>
           </a>
       </div>
     </div>
-    </footer>
+    </footer> -->
+    <div id="footer-container"></div>
+    
+      <script>
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer-container').innerHTML = data; 
+      });
+    </script>
     
     </div>
   </body>
