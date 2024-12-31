@@ -399,7 +399,15 @@ video{
 .project-container{
   width: 75vw;
   margin: 0 auto;
-  margin-bottom: 2rem;
+  margin-bottom: 7vw;
+}
+.project-repo{
+  display: block
+  text-decoration: none;
+  color: #333333
+}
+.project-repo:hover{
+  
 }
 .project-img{
   width: 75vw  
@@ -407,7 +415,6 @@ video{
 .project-info{
   text-align: left;
 }
-
 .techstack{
   display: inline-block;
   font-size: 8px;
@@ -415,7 +422,7 @@ video{
   color: white;
   padding: 0.3rem;
   border-radius: 15px;
-  margin-bottom: 5vw;
+  margin-bottom: 3px;
 }
 
 /*code*/
