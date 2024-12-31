@@ -14,26 +14,16 @@
   
   <body>
                 
-        <nav>
-  
-        <div class="menu-button">
-         <img src="https://cdn.glitch.com/4c26324d-3d16-41b4-814f-f72ea184fcdc%2Fnavi.png?v=1627706006963">
-         </div>
-    <div class="menu">
-      <ul>
-        <li><h4 class="home"><a href="home.html">HOME</a></h4></li>
-        <li><h4 class="code"><a href="code.html">CODE</a></h4></li>
-        <li><h4 class="edits"><a href="edits.html">EDITS</a></h4></li>
-        <li><h4 class="design"><a href="design.html">DESIGN</a></h4></li>
-        <li><h4 class="album"><a href="album.html">ALBUM</a></h4></li>
-        <li><h4 class="vlogs"><a href="vlogs.html">VLOGS</a></h4></li>
-        <li><h4 class="profile"><a href="profile.html">PROFILE</a></h4></li>
-      </ul>
-    </div>
-   
-          <div class="menu-bg"></div>
-    
-    </nav>
+     <!-- Menu Navbar -->
+    <div id="menu-container"></div> 
+
+    <script>
+    fetch('menu.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('menu-container').innerHTML = data; 
+      });
+    </script>
     
     <div class="page">
 
