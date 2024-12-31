@@ -394,6 +394,13 @@ video{
   margin-bottom:4vw;
 }
 
+/*projects*/
+.project-img{
+  width: 75vw  
+}
+.project-info{
+  text-align: left;
+}
 
 /*code*/
 .web{
