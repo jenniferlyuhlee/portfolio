@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>JLL Profile</title>
+    <link rel="stylesheet" href="style.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="main.js"></script>
+
+  </head>
+  
+  <body>
+    
+    <!-- Menu Navbar -->
+    <div id="menu-container"></div> 
+
+    <script>
+    fetch('menu.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('menu-container').innerHTML = data; 
+      });
+    </script>
+    
+    <div class="page">
+      
+    
+    <div class="jennifer">
+       <h1><a href="home.html">&nbsp;&nbsp;JENNIFER LEE&nbsp;&nbsp;&nbsp;</a></h1>
+    </div>
+    
+ 
+    <h5 class="newtitle">WanderLyst</h5>
+    
+
+    
+    <!-- Footer -->
+    <div id="footer-container"></div>
+    <script>
+      fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer-container').innerHTML = data; 
+        });
+    </script>
+    
+    
+          </div>
+
+  </body>
+</html>
