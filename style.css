@@ -414,7 +414,7 @@ video{
 .project-img{
   width: 70vw;
   border-radius: 10px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
 }
 .project-info{
   text-align: left;
