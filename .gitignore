@@ -1,6 +1,6 @@
-.gitignore
 .glitch-assets
 .DS_Store
 glitch-assets/vlogs
-glitch-assets/photography
+glitch-assets/cocogoose_pro_italic-trial-webfont.woff
+glitch-assets/cocogoose_pro_italic-trial-webfont.woff2
 .node-gyp
