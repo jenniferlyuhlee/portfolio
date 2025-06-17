@@ -1,8 +1,7 @@
+.gitignore
 .glitch-assets
 .DS_Store
 glitch-assets/vlogs
 glitch-assets/photography
 glitch-assets/codeart
-glitch-assets/graphics
-glitch-assets/design
 .node-gyp
