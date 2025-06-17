@@ -1,5 +1,6 @@
 .glitch-assets
 .DS_Store
+.node-gyp
 glitch-assets/vlogs
 glitch-assets/cocogoose_pro_italic-trial-webfont.woff
 glitch-assets/cocogoose_pro_italic-trial-webfont.woff2
